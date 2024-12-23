@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hành Hương Tu Tập Ấn Độ</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Container */
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+    }
+
+    /* Left Section */
+    .left-section {
+      flex: 2;
+    }
+
+    .left-section img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Swiper */
+    .swiper-container {
+      margin-top: 10px;
+    }
+
+    .swiper-slide img {
+      width: 100px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .swiper-slide img:hover {
+      border: 2px solid #aa1c1c;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      color: #aa1c1c;
+    }
+
+    /* Right Section */
+    .right-section {
+      flex: 1;
+      background-color: #f8f8f8;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .right-section h2 {
+      font-size: 1.2em;
+      color: #aa1c1c;
+      text-transform: uppercase;
+    }
+
+    .price {
+      font-size: 1.5em;
+      color: #aa1c1c;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .price span {
+      text-decoration: line-through;
+      font-size: 0.9em;
+      color: #999;
+      margin-left: 10px;
+    }
+
+    .info {
+      margin: 10px 0;
+      font-size: 0.95em;
+    }
+
+    .info i {
+      color: #aa1c1c;
+      margin-right: 5px;
+    }
+
+    .date-buttons {
+      display: flex;
+      gap: 5px;
+      margin: 10px 0;
+    }
+
+    .date-buttons button {
+      border: none;
+      background-color: #e5e5e5;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 0.9em;
+    }
+
+    .date-buttons button.active {
+      background-color: #aa1c1c;
+      color: #fff;
+    }
+
+    .cta-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #aa1c1c;
+      color: #fff;
+      border: none;
+      padding: 10px 0;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .cta-button:hover {
+      background-color: #880d0d;
+    }
+
+    .hotline {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .hotline p {
+      margin: 5px 0;
+      font-size: 0.9em;
+    }
+
+    .hotline span {
+      font-weight: bold;
+      color: #aa1c1c;
+      font-size: 1.2em;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Container -->
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <img src="https://placehold.co/800x500" alt="Main image of pilgrimage">
+      <!-- Swiper Slider -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://placehold.co/100x60" alt="Thumbnail 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/100x60" alt="Thumbnail 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/100x60" alt="Thumbnail 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://placehold.co/100x60" alt="Thumbnail 4">
+          </div>
+        </div>
+        <!-- Swiper Navigation Buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <h2>Hành Hương Tu Tập Bồ Đề Đạo Tràng - Ấn Độ</h2>
+      <div class="price">
+        22.900.000₫ <span>24.500.000₫</span>
+      </div>
+      <div class="info">
+        <p><i class="fas fa-tag"></i> Mã tour: NNTNG6342</p>
+        <p><i class="fas fa-map-marker-alt"></i> Nơi khởi hành: TP Hồ Chí Minh</p>
+        <p><i class="fas fa-calendar-alt"></i> Chọn ngày khởi hành:</p>
+        <div class="date-buttons">
+          <button class="active">20/12</button>
+          <button>30/12</button>
+          <button>03/01</button>
+        </div>
+        <p><i class="fas fa-clock"></i> 7N6Đ</p>
+      </div>
+      <button class="cta-button">ĐẶT TOUR NGAY!</button>
+      <div class="hotline">
+        <p>Liên hệ với chúng tôi</p>
+        <span>Hotline: 0332345847</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 4,
+      spaceBetween: 10,
+      breakpoints: {
+        0: { slidesPerView: 2 },
+        768: { slidesPerView: 4 }
+      }
+    });
+  </script>
+</body>
+</html>
