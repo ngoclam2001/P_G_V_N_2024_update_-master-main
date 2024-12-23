@@ -1,0 +1,35 @@
+.detail-author_gqn{
+    background-color: #fff;
+    border: 1px solid #CECECE;
+    border-radius: 10px;
+}
+@media (max-width: 767px) {
+    .topic_author .topic-left{
+        margin-bottom: 14px;
+    }
+    .detail-author_gqn{
+        padding: 20px;
+    }
+    .more_author-box{
+        margin-bottom: 0 !important;
+    }
+    .list_author{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .author-avatar_a{
+        max-width: 46px;
+    }
+    .more_author{
+        flex-direction: column;
+        text-align: center;
+    }
+    .more_author .author-info{
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .heading_author-d{
+        background-color: #fff;
+        color: #993333;
+    }
+}
